@@ -66,7 +66,7 @@ int threeSumClosest(vector<int>& nums, int target) {
         int k = nums.size() - 1;
 
 
-        while(j < k){  //it might cross over k 
+        while(j < k){  //it might cross over k also both need identical therefore j<k if not unique then we can do might j==k dw 
 
 
             int current = nums[i] + nums[j] + nums[k];
