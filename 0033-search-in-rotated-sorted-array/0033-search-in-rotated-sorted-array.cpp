@@ -16,10 +16,10 @@ public:
                 return mid;
             }
 
-            // left side is sorted
+           
             if (nums[low] <= nums[mid]) {
 
-                // target is inside the sorted left side
+                
                 if (nums[low] <= target && target < nums[mid]) {
                     high = mid - 1;
                 }
@@ -28,10 +28,10 @@ public:
                 }
             }
 
-            // right side is sorted
+            
             else {
 
-                // target is inside the sorted right side
+                
                 if (nums[mid] < target && target <= nums[high]) {
                     low = mid + 1;
                 }
