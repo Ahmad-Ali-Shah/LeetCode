@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
+| [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
 ## Hash Table
 |  |
 | ------- |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0011-container-with-most-water) |
+| [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
 ## Stack
 |  |
 | ------- |
@@ -100,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0018-4sum) |
+| [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
 ## String Matching
 |  |
 | ------- |
@@ -128,4 +131,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
 <!---LeetCode Topics End-->
