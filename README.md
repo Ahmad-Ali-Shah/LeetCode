@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
+| [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
+| [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -122,4 +124,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
+## Prefix Sum
+|  |
+| ------- |
+| [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
 <!---LeetCode Topics End-->
