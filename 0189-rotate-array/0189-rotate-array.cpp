@@ -64,20 +64,22 @@ public:
             return;
 
         k = k % nums.size();
+      
+        // its btw a pattern ie in ordert to minimize the flow what should you do is take the modulus of that like k%10 so it be easy to solve
 
-        vector<int> temp;
+        // make it like o(n)
 
-        for(int i = nums.size() - k; i < nums.size(); i++){
-            temp.push_back(nums[i]); // move oppositly 
-        }
 
-        for(int i = nums.size() - 1; i >= k; i--){
-            nums[i] = nums[i-k];
-        }
+        reverse(nums.begin(), nums.end()); //first reverse the whole array its like logo block
 
-        for(int i = 0; i < k; i++){
-            nums[i] = temp[i];
-        }
+        // reverse the other
+
+        reverse(nums.begin(), nums.begin()+k); // here we divide it in two half so its a problem by division into cases
+
+        //now for the last ones
+
+        reverse(nums.begin()+k, nums.end());
+
     }
 };
 //that's is a more optimized way 
