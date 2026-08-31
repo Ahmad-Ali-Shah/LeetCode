@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
 | [0565-array-nesting](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0565-array-nesting) |
 | [0896-monotonic-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0896-monotonic-array) |
+| [0941-valid-mountain-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0941-valid-mountain-array) |
 ## Hash Table
 |  |
 | ------- |
