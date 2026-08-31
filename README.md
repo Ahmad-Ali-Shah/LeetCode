@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
 | [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
+| [0565-array-nesting](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0565-array-nesting) |
 ## Hash Table
 |  |
 | ------- |
@@ -135,4 +136,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
+## Depth-First Search
+|  |
+| ------- |
+| [0565-array-nesting](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0565-array-nesting) |
 <!---LeetCode Topics End-->
