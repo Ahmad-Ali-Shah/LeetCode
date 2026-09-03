@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0054-spiral-matrix) |
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
 | [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0054-spiral-matrix) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -142,4 +144,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0565-array-nesting](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0565-array-nesting) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
