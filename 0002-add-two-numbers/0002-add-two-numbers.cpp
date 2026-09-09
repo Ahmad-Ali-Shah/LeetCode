@@ -46,7 +46,11 @@ public:
 
         // if carry is left
         if (carry) {
-            current->next = new ListNode(carry);
+            current->next = new ListNode(); 
+
+            current->next->val = carry;
+
+            current->next->next = nullptr;
         }
 
         return result;
