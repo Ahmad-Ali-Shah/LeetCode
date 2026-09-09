@@ -57,51 +57,70 @@ public:
 high complexity o(n^2)
 */
 
+//////////////////////////
+
+// took from other
+
+///////////////////
+
+
+/*
+
+goated algortham btw 
+
+find middle 
+
+break array in two 
+
+then after that from 
+
+
+mid reverse each one 
+
+then after reversing linked list 
+
+compart both 
+
+
+*/
 
 class Solution {
-
 public:
+ListNode* reverse(ListNode* head){
+
+    ListNode* prev = NULL;
+
+    while(head != NULL){
+        ListNode* next = head -> next;
+        head-> next = prev;
+
+        prev =head;
+        head = next;
+    }
+
+    return prev;
+}
     bool isPalindrome(ListNode* head) {
-
-        if (!head || !head->next) {
-            return true;
-        }
-
-
         ListNode* slow = head;
         ListNode* fast = head;
+        while(fast != NULL && fast -> next != NULL){
 
-      
-        while (fast && fast->next) {
-            slow = slow->next;
-            fast = fast->next->next;
+           
+
+            slow = slow -> next;
+            fast = fast -> next->next;
         }
 
+        slow = reverse(slow);
+
+        fast =head;
         
-        ListNode* prev = nullptr;
-        ListNode* curr = slow;
-
-        while (curr) {
-            ListNode* preserver = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = preserver;
+        while(slow != NULL){
+        if(slow -> val != fast -> val)
+         return false;
+        slow = slow -> next;
+        fast = fast -> next;
         }
-
-        // Compare first half and reversed second half
-        ListNode* start = head;
-        ListNode* end = prev;
-
-        while (end) {
-
-            if (start->val != end->val) {
-                return false;
-            }
-
-            start = start->next;
-            end = end->next;
-        }
-
         return true;
     }
 };
