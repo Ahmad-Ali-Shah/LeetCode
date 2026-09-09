@@ -1,72 +1,54 @@
-
-
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* returnList = new ListNode;
-        ListNode* returnListed = returnList;
 
-        bool carry = 0;
+        ListNode* result = nullptr;
+        ListNode* current = nullptr; // always whenever you need to indsert make the two pointer start and move 
+
+        int carry = 0;
 
         while (l1 || l2) {
 
-            if (l2 && l1) {
+            int sum = 0;
 
-                returnList->val = ((l1->val + l2->val) % 10 + carry)%10;
+            if (l1 && l2)
+                sum = l1->val + l2->val + carry;
 
-                carry = (l1->val + l2->val + carry) / 10;
+            else if (l1)
+                sum = l1->val + carry;
 
-                l1 = l1->next;
-                l2 = l2->next;
-                if (l1 || l2) {
+            else
+                sum = l2->val + carry;
 
-                    returnList->next = new ListNode;
+            carry = sum / 10;
+            sum = sum % 10;
 
-                    returnList = returnList->next;
-                }
+            // make a node and then push it
+            ListNode* temp = new ListNode(sum);
 
-            } else {
-                if (l1) {
-
-                    returnList->val = (l1->val + carry) % 10;
-
-                    carry = (l1->val + carry) / 10;
-
-                    l1 = l1->next;
-
-                    if (l1) {
-
-                        returnList->next = new ListNode;
-
-                        returnList = returnList->next;
-                    }
-
-                } else if (l2) {
-
-                    returnList->val = (l2->val + carry) % 10;
-
-                    carry = (l2->val + carry) / 10;
-
-                    l2 = l2->next;
-
-                    if (l2) {
-                        returnList->next = new ListNode;
-
-                        returnList = returnList->next;
-                    }
-                }
+            if (!result) {
+                result = temp;
+                current = temp;
             }
+
+            else {
+                // make temp and add to next
+                current->next = temp;
+                current = current->next;
+            }
+
+            if (l1)
+                l1 = l1->next;
+
+            if (l2)
+                l2 = l2->next;
         }
 
+        // if carry is left
         if (carry) {
-            returnList->next = new ListNode;
-            returnList = returnList->next;
-
-            returnList->val = carry;
-
-            returnList->next = nullptr;
+            current->next = new ListNode(carry);
         }
 
-        return returnListed;
+        return result;
     }
 };
