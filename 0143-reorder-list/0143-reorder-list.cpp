@@ -15,6 +15,10 @@ o Find the midpoint of the list using slow and fast pointers.
 o Reverse the second half of the list in-place.
 o Merge/interleave the two halves using pointer rewiring.
 o No node data fields may be overwritten; pointers must be manipulated directly.
+
+
+
+now for mergiing you need to break from mid next and then integrate it else it will give error 
 */
 
 class Solution {
