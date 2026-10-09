@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0049-group-anagrams) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
+| [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 ## Binary Search
 |  |
 | ------- |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0328-odd-even-linked-list) |
+| [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 ## Backtracking
 |  |
 | ------- |
