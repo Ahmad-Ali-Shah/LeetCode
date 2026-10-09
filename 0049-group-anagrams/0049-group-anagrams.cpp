@@ -1,4 +1,4 @@
-
+/*
 class Solution {
 
     // Hash based on character frequency
@@ -9,7 +9,7 @@ class Solution {
 
 
         for(int i = 0; i < s.size(); i++) {
-            
+
             generated[s[i] - 'a']++;
 
         }
@@ -58,5 +58,40 @@ public:
         }
 
         return getRes;
+    }
+};
+*/
+
+
+class Solution {
+public:
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+
+        vector<vector<string>> result;
+        vector<string> keys;
+
+        for(int i = 0; i < strs.size(); i++) {
+
+            string s = strs[i]; // take strng and sort out each and every strng 
+            sort(s.begin(), s.end());
+
+            bool found = false;
+
+            for(int j = 0; j < keys.size(); j++) {
+
+                if(keys[j] == s) {
+                    result[j].push_back(strs[i]);
+                    found = true;
+                    break;
+                }
+            }
+
+            if(!found) {
+                keys.push_back(s);
+                result.push_back({strs[i]});
+            }
+        }
+
+        return result;
     }
 };
