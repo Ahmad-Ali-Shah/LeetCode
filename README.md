@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0054-spiral-matrix) |
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0049-group-anagrams) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
 ## Binary Search
 |  |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0049-group-anagrams](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0049-group-anagrams) |
 ## Two Pointers
 |  |
 | ------- |
@@ -135,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0049-group-anagrams) |
 | [0561-array-partition](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0561-array-partition) |
 ## String Matching
 |  |
