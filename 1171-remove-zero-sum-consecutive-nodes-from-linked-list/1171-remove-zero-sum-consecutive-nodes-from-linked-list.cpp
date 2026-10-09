@@ -1,51 +1,68 @@
+
 class Solution {
 
-    void deleteNodes(ListNode* prev, ListNode* next) {
+    void deleteNodes(ListNode* startPrev, ListNode* next) {
 
         ListNode* after = next->next;
-        ListNode* temp = prev->next;
 
-        while (temp != after) {
-            ListNode* del = temp;
-            temp = temp->next;
-            delete del;
-        }
-
-        prev->next = after;
+        // Reconnect without freeing input nodes
+        startPrev->next = after;
     }
 
-    ListNode* removeZeroSum(ListNode* head,
-                            ListNode* doubleTrav,
-                            ListNode* trav,
-                            ListNode* prev,
-                            ListNode* startPrev,
-                            int sum = 0) {
+    ListNode* removeZeroSum(
+        ListNode* DUMMY,
+        ListNode* head,
+        ListNode* doubleTrav,
+        ListNode* trav,
+        ListNode* prev,
+        ListNode* startPrev,
+        int sum = 0
+    ) {
 
-        if (!doubleTrav) return head;
+        if (!doubleTrav)
+            return DUMMY->next;
 
-        if (!trav)
-            return removeZeroSum(head, doubleTrav->next, doubleTrav->next, doubleTrav, doubleTrav, 0);
+        if (!trav) {
+            return removeZeroSum(
+                DUMMY, DUMMY->next,
+                doubleTrav->next, doubleTrav->next,
+                doubleTrav, doubleTrav, 0
+            );
+        }
 
         sum += trav->val;
 
         if (sum == 0) {
 
-            ListNode* after = trav->next;
+            deleteNodes(startPrev, trav);
 
-            if (!startPrev) {
-                head = after;
-            } else {
-                startPrev->next = after;
-            }
-
-            return removeZeroSum(head, head, head, nullptr, nullptr, 0);
+            return removeZeroSum(
+                DUMMY, DUMMY->next,
+                DUMMY->next, DUMMY->next,
+                nullptr, DUMMY, 0
+            );
         }
 
-        return removeZeroSum(head, doubleTrav, trav->next, trav, startPrev, sum);
+        return removeZeroSum(
+            DUMMY, head, doubleTrav,
+            trav->next, trav, startPrev, sum
+        );
     }
 
 public:
     ListNode* removeZeroSumSublists(ListNode* head) {
-        return removeZeroSum(head, head, head, nullptr, nullptr, 0);
+
+        ListNode* DUMMY = new ListNode(0);
+        DUMMY->next = head;
+
+        head = removeZeroSum(
+            DUMMY, head, head, head,
+            nullptr, DUMMY, 0
+        );
+
+        ListNode* result = DUMMY->next;
+        delete DUMMY;
+
+        return result;
     }
 };
