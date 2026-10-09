@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0051-n-queens) |
 | [0054-spiral-matrix](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0054-spiral-matrix) |
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0051-n-queens) |
 ## Trie
 |  |
 | ------- |
@@ -194,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
+| [0051-n-queens](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0051-n-queens) |
 ## Dancing Links
 |  |
 | ------- |
