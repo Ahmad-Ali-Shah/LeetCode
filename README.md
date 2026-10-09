@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0039-combination-sum) |
 | [0054-spiral-matrix](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0054-spiral-matrix) |
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
 ## Binary Search
 |  |
@@ -107,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0039-combination-sum) |
 ## Trie
 |  |
@@ -143,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
 | [0054-spiral-matrix](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0054-spiral-matrix) |
 ## Prefix Sum
 |  |
@@ -167,4 +171,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0143-reorder-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0234-palindrome-linked-list) |
+## Algorithm X
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
+## Dancing Links
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
