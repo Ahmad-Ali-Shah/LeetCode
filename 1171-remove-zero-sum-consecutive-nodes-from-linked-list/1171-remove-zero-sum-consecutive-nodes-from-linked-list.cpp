@@ -1,18 +1,14 @@
 class Solution {
 
-  
+    ListNode* removeZeroSum(ListNode* head, ListNode* doubleTrav,
+                            ListNode* trav, ListNode* startPrev, int sum = 0) {
 
-    ListNode* removeZeroSum(ListNode* head,
-                            ListNode* doubleTrav,
-                            ListNode* trav,
-                            ListNode* prev,
-                            ListNode* startPrev,
-                            int sum = 0) {
-
-        if (!doubleTrav) return head;
+        if (!doubleTrav)
+            return head;
 
         if (!trav)
-            return removeZeroSum(head, doubleTrav->next, doubleTrav->next, doubleTrav, doubleTrav, 0);
+            return removeZeroSum(head, doubleTrav->next, doubleTrav->next,
+                                 doubleTrav, 0);
 
         sum += trav->val;
 
@@ -22,18 +18,19 @@ class Solution {
 
             if (!startPrev) {
                 head = after;
-            } else {
+            }
+            else {
                 startPrev->next = after;
             }
 
-            return removeZeroSum(head, head, head, nullptr, nullptr, 0);
+            return removeZeroSum(head, head, head, nullptr, 0);
         }
 
-        return removeZeroSum(head, doubleTrav, trav->next, trav, startPrev, sum);
+        return removeZeroSum(head, doubleTrav, trav->next, startPrev, sum);
     }
 
 public:
     ListNode* removeZeroSumSublists(ListNode* head) {
-        return removeZeroSum(head, head, head, nullptr, nullptr, 0);
+        return removeZeroSum(head, head, head, nullptr, 0);
     }
 };
