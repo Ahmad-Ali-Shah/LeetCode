@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0041-first-missing-positive) |
+| [0042-trapping-rain-water](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0054-spiral-matrix](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0054-spiral-matrix) |
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
 | [0525-contiguous-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0525-contiguous-array) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0143-reorder-list) |
 | [0189-rotate-array](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0234-palindrome-linked-list) |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Bracket Sequences
@@ -183,4 +186,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0037-sudoku-solver) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Ahmad-Ali-Shah/LeetCode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
