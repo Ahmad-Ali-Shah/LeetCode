@@ -41,6 +41,8 @@ public:
 
             // Backtrack
             UniqueCombinations.pop_back();
+
+            
         }
 
         return result;
